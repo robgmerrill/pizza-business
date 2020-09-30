@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/robertmerrill/Desktop/pizza-slices/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/robertmerrill/Desktop/pizza-slices/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"3tmorhil","dataset":"production","watchMode":true,"token":"sk4OmvQkrXw2SVVGvE5HvI0848eVO56ON9E12UZ01g7Gsj5amOvkjNvhpXaNHRZ9T4ptPyg1P68XQ5kY7koJFGPFXf5jvMgPyBDuBUOi3y7xK8oM9kQa2EPoOQ6nlHxIV5qeD1CLYpMw31lIRptlNKtfZo468qpiNnyw7leSH8w5KXVtzStG"},
+    },{
       plugin: require('/Users/robertmerrill/Desktop/pizza-slices/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
