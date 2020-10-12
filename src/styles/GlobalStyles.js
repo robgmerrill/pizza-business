@@ -47,6 +47,12 @@ const GlobalStyles = createGlobalStyle`
     image-rendering: pixelated;
   }
 
+  .snipcart-checkout {
+    margin-left: calc(100% - 100px);
+    margin-top: 12px;
+
+  }
+
   /* Scrollbar Styles */
   body::-webkit-scrollbar {
     width: 12px;

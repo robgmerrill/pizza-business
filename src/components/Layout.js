@@ -35,6 +35,8 @@ export default function Layout({ children }) {
     <>
       <GlobalStyles />
       <Typography />
+      <button className="snipcart-checkout">View Cart</button>
+
       <SiteBorderStyles>
         <ContentStyles>
           <Nav />
