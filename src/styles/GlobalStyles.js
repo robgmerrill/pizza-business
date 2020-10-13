@@ -50,7 +50,6 @@ const GlobalStyles = createGlobalStyle`
   .snipcart-checkout {
     margin-left: calc(100% - 100px);
     margin-top: 12px;
-
   }
 
   /* Scrollbar Styles */
