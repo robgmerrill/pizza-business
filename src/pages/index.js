@@ -1,11 +1,33 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import Nav from '../components/Nav';
+import useLatestData from '../utils/useLatestData';
 
-export default function HomePage() {
+function CurrentlySlicing() {
   return (
-    <>
-      <p>Hey! I'm the home page</p>
-    </>
+    <div>
+      <p>CurrentlySlicing</p>
+    </div>
+  )
+}
+
+function HotSlices() {
+  return (
+    <div>
+      <p>HotSlices</p>
+    </div>
+  )
+}
+ 
+export default function HomePage() {
+  const {slicemasters, hotSlices} = useLatestData();
+
+  return (
+   <div className="center">
+     <h1>The Best Pizza Downtown</h1>
+     <p>Open 11am to 11pm Every Single Day</p>
+     <div>
+       <CurrentlySlicing slicemasters={slicemasters}></CurrentlySlicing>
+       <HotSlices hotSlices={hotSlices}></HotSlices>
+     </div>
+   </div>
   );
 }

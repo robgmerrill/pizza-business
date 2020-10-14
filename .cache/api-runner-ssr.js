@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      plugin: require('/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/node_modules/gatsby-source-sanity/gatsby-ssr'),
       options: {"plugins":[],"projectId":"3tmorhil","dataset":"production","watchMode":true,"token":"sk4OmvQkrXw2SVVGvE5HvI0848eVO56ON9E12UZ01g7Gsj5amOvkjNvhpXaNHRZ9T4ptPyg1P68XQ5kY7koJFGPFXf5jvMgPyBDuBUOi3y7xK8oM9kQa2EPoOQ6nlHxIV5qeD1CLYpMw31lIRptlNKtfZo468qpiNnyw7leSH8w5KXVtzStG"},
     },{
-      plugin: require('/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/node_modules/gatsby-plugin-snipcartv3/gatsby-ssr'),
+      plugin: require('/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/node_modules/gatsby-plugin-snipcartv3/gatsby-ssr'),
       options: {"plugins":[],"apiKey":"MzUxZjFkYTAtNjc1NS00MzBkLWFiMDgtZjhlYzUwMjQ5MWY5NjM3MzgxMzIyMTkzMzg1NTg4","autopop":false},
     },{
-      plugin: require('/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/gatsby-ssr'),
+      plugin: require('/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

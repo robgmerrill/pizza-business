@@ -13,7 +13,6 @@ import calculateOrderTotal from '../utils/calculateOrderTotal';
 
 export default function OrderPage({ data }) {
   const pizzas = data.pizzas.nodes;
-  console.log({ pizzas });
   const { values, updateValue } = useForm({
     name: '',
     email: '',
@@ -70,11 +69,11 @@ export default function OrderPage({ data }) {
                       })
                     }
                     className="snipcart-add-item"
-                    data-item-id="silver-stacking-ring"
+                    data-item-id={pizza.id}
                     data-item-price={
                       calculatePizzaPrice(pizza.price, size) / 100
                     }
-                    data-item-url="/"
+                    data-item-url="https://slicks-pizza.netlify.app/order"
                     data-item-name={pizza.name}
                     data-item-custom1-name={size}
                   >

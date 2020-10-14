@@ -5,14 +5,14 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": (preferDefault(require("/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/.cache/dev-404-page.js"))),
-  "component---src-pages-404-js": (preferDefault(require("/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/src/pages/404.js"))),
-  "component---src-pages-beers-js": (preferDefault(require("/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/src/pages/beers.js"))),
-  "component---src-pages-index-js": (preferDefault(require("/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/src/pages/index.js"))),
-  "component---src-pages-order-js": (preferDefault(require("/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/src/pages/order.js"))),
-  "component---src-pages-pizzas-js": (preferDefault(require("/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/src/pages/pizzas.js"))),
-  "component---src-pages-slicemasters-js": (preferDefault(require("/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/src/pages/slicemasters.js"))),
-  "component---src-templates-pizza-js": (preferDefault(require("/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/src/templates/Pizza.js"))),
-  "component---src-templates-slicemaster-js": (preferDefault(require("/Users/robertmerrill/Desktop/gatsby-pizza/pizza-business/src/templates/Slicemaster.js")))
+  "component---cache-dev-404-page-js": (preferDefault(require("/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/.cache/dev-404-page.js"))),
+  "component---src-pages-404-js": (preferDefault(require("/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/src/pages/404.js"))),
+  "component---src-pages-beers-js": (preferDefault(require("/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/src/pages/beers.js"))),
+  "component---src-pages-index-js": (preferDefault(require("/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/src/pages/index.js"))),
+  "component---src-pages-order-js": (preferDefault(require("/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/src/pages/order.js"))),
+  "component---src-pages-pizzas-js": (preferDefault(require("/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/src/pages/pizzas.js"))),
+  "component---src-pages-slicemasters-js": (preferDefault(require("/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/src/pages/slicemasters.js"))),
+  "component---src-templates-pizza-js": (preferDefault(require("/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/src/templates/Pizza.js"))),
+  "component---src-templates-slicemaster-js": (preferDefault(require("/Users/robertmerrill/Library/Mobile Documents/com~apple~CloudDocs/.Trash/pizza-business 9.09.16 AM/src/templates/Slicemaster.js")))
 }
 
